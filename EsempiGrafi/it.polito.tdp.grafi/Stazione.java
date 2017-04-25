@@ -19,7 +19,7 @@ public class Stazione {
 	public String toString() {
 		return nome;
 	}
-
+//ridefinisco anche hashcode e equals perchè le stazioni sono i vertici del mio grafo ed è importantissimo che siano univoche
 	@Override
 	public int hashCode() {
 		final int prime = 31;
