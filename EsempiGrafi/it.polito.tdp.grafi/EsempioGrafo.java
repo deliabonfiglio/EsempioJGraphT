@@ -73,7 +73,7 @@ public class EsempioGrafo {
 					System.out.format("adiacent vertex: %d\n",grafo.getEdgeSource(arch));
 				}
 			}
-			//stampare per ogni ertice il grado
+			//stampare per ogni vertice il grado
 			System.out.format("inDegree: %d -- outDegree: %d\n",
 								grafo.inDegreeOf(vertex),
 								grafo.outDegreeOf(vertex));			
